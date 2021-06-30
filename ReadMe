@@ -1,0 +1,100 @@
+Partie 1
+exercice 1
+Créer une base de données languages
+
+exercice 2
+Créer une base de données webDevelopment avec l’encodage UTF-8
+
+exercice 3
+Créer une base de données frameworks avec l’encodage UTF-8 si elle n’existe pas
+
+exercice 4
+Créer une base de données languages avec l’encodage UTF-8 si elle n’existe pas
+
+exercice 5
+Supprimer la base de données languages
+
+exercice 6
+Supprimer la base de données frameworks si elle existe
+
+exercice 7
+Supprimer la base de données languages si elle existe
+
+
+Partie 2
+
+exercice 1
+Dans la base de données webDevelopment, créer la table languages avec les colonnes : --id (type INT, auto-incrémenté, clé primaire) --language (type VARCHAR)
+
+exercice 2
+Dans la base de données webDevelopment, créer la table tools avec les colonnes suivantes : --id (type INT, auto-incrémenté, clé primaire) --tool (type VARCHAR)
+
+exercice 3
+Dans la base de données webDevelopment, créer la table frameworks avec les colonnes suivantes : --id (type INT, auto-incrémenté, clé primaire) --name (type VARCHAR)
+
+exercice 4
+Dans la base de données webDevelopment, créer la table librairies avec les colonnes suivantes : --id (type INT, auto-incrémenté, clé primaire) --librairy (type VARCHAR)
+
+exercice 5
+Dans la base de données webDevelopment, créer la table ide avec les colonnes suivantes : --id (type INT, auto-incrémenté, clé primaire) --librairy (type VARCHAR)
+
+exercice 6
+Dans la base de données webDevelopment, créer, si elle n'existe pas, la table frameworks avec les colonnes suivantes : --id (type INT, auto-incrémenté, clé primaire) --name (type VARCHAR)
+
+
+
+Partie 3
+
+exercice 1
+Créer la base codex, créer une table clients avec les colonnes id, lastName, firstName,birthDate, adress, phoneNumber et mail.
+
+exercice 2
+Dans la base de donnée 'webDevelopment',ajouter à la table languages une colonne versions (VARCHAR).
+
+exercice 3
+Ajouter à la table frameworks une colonne version (INT)
+
+exercice 4
+Dans la table languages renommer la colonne versions en version.
+
+exercice 5
+Dans la table frameworks, renommer la colonne name en framework.
+
+exercice 6
+à la table frameworks changer le type de la colonne version en VARCHAR de taille 10.
+
+Bonus
+Dans la base codex, dans la table clients et en une seule requête :
+
+-supprimer la colonne phoneNumber -renommer la colonne mail par mails --ajouter les colonnes zipCode(VARCHAR) et city(VARCHAR)
+
+
+Partie 4
+
+exercice 1
+Dans la table languages insérez les données suivantes :
+
+PHP version 5
+PHP version 6
+PHP version 7
+PHP version 7.4
+PHP version 8
+
+exercice 2
+Dans la table frameworks insérez les données suivantes :
+
+REACT version 16.1
+REACT version 16.3
+REACT version 16.4
+REACT version 16.5
+exercice 3
+Dans la table languages, afficher toutes les données de la table.
+
+exercice 4
+Dans la table languages, afficher toutes les versions de PHP.
+
+exercice 5
+Dans la table languages, afficher les lignes ayant pour id 1,3,4.
+
+exercice 6
+Dans la table frameworks, afficher les deux premières entrées de REACT.
